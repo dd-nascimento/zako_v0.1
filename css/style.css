@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,22 +11,52 @@ body{
     background-color: #D7D7D9;
 }
 
+.header{
+    background-color: #D7D7D9;
+}
+
+li, a {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #18778C;
+    text-decoration: none;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav__links {
+    list-style-type: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
 /* Estilo de Textos*/
 
 h1{ 
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    color: #5BCCD9;
+    color: #133340;
 }
 
 .topo{
     display: flex;
-    background-color: black;
+    background-color: #18778C;
     width: 100%;
     
 }
 
 #logo{
     padding-left: 10px;
+    padding-top: 5px;
 }
 
 .logo2{
