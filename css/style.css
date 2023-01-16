@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+body{
+    background-color: #D7D7D9;
+}
+
+/* Estilo de Textos*/
+
+h1{ 
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #5BCCD9;
+}
+
+.topo{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    
+}
+
+#logo{
+    padding-left: 10px;
+}
+
+.logo2{
+    padding-left: 10px;
+}
