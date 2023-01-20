@@ -11,54 +11,38 @@ body{
     background-color: #D7D7D9;
 }
 
-.header{
-    background-color: #D7D7D9;
+.logo{
+    display: flex;
 }
 
-li, a {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #18778C;
-    text-decoration: none;
-
+#logo1, #logo2{
+    margin: 5px;
+    color: #D7D7D9;
 }
+
+/* Cabeçalho */
 
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+    background-color: #18778c;    
 }
 
-.nav__links {
-    list-style-type: none;
-}
 
-.nav__links li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-/* Estilo de Textos*/
-
-h1{ 
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    color: #133340;
-}
-
-.topo{
-    display: flex;
-    background-color: #18778C;
+nav#menu ul{
+    background-color: #133340;
     width: 100%;
+    list-style: none;
+    text-transform: uppercase;
     
 }
 
-#logo{
-    padding-left: 10px;
-    padding-top: 5px;
+nav#menu li{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
 }
 
-.logo2{
-    padding-left: 10px;
+nav#menu ul li a {
+    text-decoration: none;
+    color: #D7D7D9;
+    font-weight:bolder;
 }
