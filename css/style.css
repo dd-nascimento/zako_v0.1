@@ -32,7 +32,6 @@ nav#menu ul{
     width: 100%;
     list-style: none;
     text-transform: uppercase;
-    
 }
 
 nav#menu li{
@@ -45,6 +44,13 @@ nav#menu ul a li  {
     text-decoration: none;
     color: #D7D7D9;
     font-weight:bolder;
+    border: 1px solid white;
+}
+
+nav#menu ul a li:hover{
+    background-color: #18778C;
+    color: #133340;
+    transition: 0.5s;
 }
 
 
