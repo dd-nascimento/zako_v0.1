@@ -44,12 +44,12 @@ nav#menu ul a li  {
     text-decoration: none;
     color: #D7D7D9;
     font-weight:bolder;
-    border: 1px solid white;
 }
 
 nav#menu ul a li:hover{
     background-color: #18778C;
     color: #133340;
+    border-bottom: 1px solid white;
     transition: 0.5s;
 }
 
