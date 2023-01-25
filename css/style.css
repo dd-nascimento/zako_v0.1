@@ -48,14 +48,17 @@ body{
     color: #D7D7D9 ;
 }
 
-#menu ul li:hover{
-    background-color: crimson;
-    border-bottom: 1px solid #D7D7D9;
+nav#menu ul a li  {
+    text-decoration: none;
+    color: #D7D7D9;
+    font-weight:bolder;
+    border: 1px solid white;
 }
 
-#menu ul ul {
-    display: none;
-    margin: 0px;
+nav#menu ul a li:hover{
+    background-color: #18778C;
+    color: #133340;
+    transition: 0.5s;
 }
 
 #menu ul li:hover>ul {
