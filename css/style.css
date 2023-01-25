@@ -11,55 +11,55 @@ body{
     background-color: #D7D7D9;
 }
 
-.logo{
-    display: flex;
-}
+/* Estilização da Logomarca */
+.logo{display: flex; padding: 5px;}
 
-#logo1, #logo2{
-    margin: 5px;
-    color: #D7D7D9;
-}
+#logo2{margin-left: 5px;}
 
-/* Cabeçalho */
+/* Estilização do Menu*/
 
-header{
-    background-color: #18778c;    
-}
-
-
-nav#menu ul{
+#menu {
+    width: 100%;
     background-color: #133340;
-    width: 100%;
-    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 15px;
+}
+
+#menu ul li{
+    color: #D7D7D9 ;
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    font-size:16px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
-nav#menu li{
-    display: inline-block;
-    padding: 8px;
-    margin: 5px;
+#menu ul li a {
+    color: #D7D7D9 ;
 }
 
-nav#menu ul a li  {
-    text-decoration: none;
-    color: #D7D7D9;
-    font-weight:bolder;
-    border: 1px solid white;
+#menu ul li:hover{
+    background-color: crimson;
+    border-bottom: 1px solid #D7D7D9;
 }
 
-nav#menu ul a li:hover{
-    background-color: #18778C;
-    color: #133340;
-    transition: 0.5s;
+#menu ul ul {
+    display: none;
+    margin: 0px;
 }
 
+#menu ul li:hover>ul {
+    display: block;
 
-/* Conteúdo */
-
-main{
-    background-color: #18778C;
-    width: 100%;
-    margin-top: 10px;
-    padding-right: 5px;
-    padding-left: 5px;
 }
+
